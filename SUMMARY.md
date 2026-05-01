@@ -95,6 +95,7 @@
     * [Admin Freeze](assets-and-guides/pc-banking/guide/banking-admin-freeze.md)
     * [Commands](assets-and-guides/pc-banking/guide/banking-commands.md)
     * [Compatibility](assets-and-guides/pc-banking/guide/banking-compatibility.md)
+    * [Migration](assets-and-guides/pc-banking/guide/banking-migration.md)
   * [Configuration](assets-and-guides/pc-banking/configuration/README.md)
     * [Framework](assets-and-guides/pc-banking/configuration/framework.md)
     * [Banks](assets-and-guides/pc-banking/configuration/banks.md)
