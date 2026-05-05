@@ -18,5 +18,5 @@ exports['pc-mechanic']:applyHandlingTuning(vehicle, tuningConfig)
 ## Notes
 
 - Network ownership applies — only the vehicle's owner sees the change reliably (use FiveM's owner migration patterns if you need a remote vehicle).
-- Servicing modifiers are layered on top automatically using the vehicle's current `servicingState` statebag.
+- Servicing modifiers are layered on top automatically based on the vehicle's current part health.
 - Reapplied automatically when a player enters the vehicle (`pc-mechanic:cl:reapply-custom-visuals`).

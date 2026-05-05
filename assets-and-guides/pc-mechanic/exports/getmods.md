@@ -2,7 +2,7 @@
 
 **Side:** Client
 
-Returns a complete vehicle properties table for the given entity. Combines the framework's native vehicle props (paint, mods, plate, etc.) with PC-Mechanic's statebag fields (stance, lighting, tuning config, servicing data, nitrous).
+Returns a complete vehicle properties table for the given entity. Combines the framework's native vehicle props (paint, mods, plate, etc.) with PC-Mechanic's extended fields.
 
 ## Signature
 
@@ -16,20 +16,7 @@ exports['pc-mechanic']:getmods(vehicle)
 
 ## Returns
 
-`table | false` — properties table, or `false` if entity doesn't exist.
-
-Combined keys include framework-native props plus the following PC-Mechanic statebag fields:
-
-| Key | Purpose |
-|-----|---------|
-| `pearlescentcolor` | Pearl-disable flag |
-| `stancingOption` | Stance enabled (boolean) |
-| `wheelsAdjIndv` | Per-wheel adjustment mode |
-| `defaultStance`, `stance` | Stance offsets |
-| `lgcontinstal`, `lcXenons`, `conglowAngle`, `lcUnderglow` | Lighting controller fields |
-| `tuneData` | Active tuning config |
-| `servicingState` | Per-part servicing health |
-| `nitrousInstalledBottles`, `nitrousFilledBottles`, `nitrousCapacity` | NOS state |
+`table | false` — properties table, or `false` if entity doesn't exist. Contains all framework-native vehicle props plus PC-Mechanic extended data.
 
 ## Example
 
