@@ -2,50 +2,52 @@
 
 Server-side exports exposed to other resources. All live under the `pc-banking` resource namespace, plus a few under `pc-banking-phone`.
 
+**Side indicator:** `Server` means the export must be called from server-side Lua. No public client-side banking exports are currently exposed.
+
 ## pc-banking
 
 ### Money Management
 
-* [AddMoney](AddMoney.md)
-* [RemoveMoney](RemoveMoney.md)
-* [GetBalance](GetBalance.md)
+* `Server` [AddMoney](AddMoney.md)
+* `Server` [RemoveMoney](RemoveMoney.md)
+* `Server` [GetBalance](GetBalance.md)
 
 ### Society / Business Treasury
 
-* [AddSocietyMoney](AddSocietyMoney.md)
-* [RemoveSocietyMoney](RemoveSocietyMoney.md)
-* [GetSocietyBalance](GetSocietyBalance.md)
-* [RegisterSociety](RegisterSociety.md)
+* `Server` [AddSocietyMoney](AddSocietyMoney.md)
+* `Server` [RemoveSocietyMoney](RemoveSocietyMoney.md)
+* `Server` [GetSocietyBalance](GetSocietyBalance.md)
+* `Server` [RegisterSociety](RegisterSociety.md)
 
 ### Account Freeze
 
-* [FreezeAccount](FreezeAccount.md)
-* [UnfreezeAccount](UnfreezeAccount.md)
-* [IsAccountFrozen](IsAccountFrozen.md)
+* `Server` [FreezeAccount](FreezeAccount.md)
+* `Server` [UnfreezeAccount](UnfreezeAccount.md)
+* `Server` [IsAccountFrozen](IsAccountFrozen.md)
 
 ### Lookup (Read-Only)
 
-* [GetAllBankingInfo](GetAllBankingInfo.md)
-* [GetAccountInfo](GetAccountInfo.md)
-* [GetAccountsByIdentifier](GetAccountsByIdentifier.md)
-* [GetAccountFromCard](GetAccountFromCard.md)
-* [IsCardFrozen](IsCardFrozen.md)
-* [GetCreditInfoFromCard](GetCreditInfoFromCard.md)
-* [ExportAccountTransactions](ExportAccountTransactions.md)
+* `Server` [GetAllBankingInfo](GetAllBankingInfo.md)
+* `Server` [GetAccountInfo](GetAccountInfo.md)
+* `Server` [GetAccountsByIdentifier](GetAccountsByIdentifier.md)
+* `Server` [GetAccountFromCard](GetAccountFromCard.md)
+* `Server` [IsCardFrozen](IsCardFrozen.md)
+* `Server` [GetCreditInfoFromCard](GetCreditInfoFromCard.md)
+* `Server` [ExportAccountTransactions](ExportAccountTransactions.md)
 
 ### Requests (Phone-App Inbox)
 
-* [CreateRequest](CreateRequest.md)
+* `Server` [CreateRequest](CreateRequest.md)
 
 ### Logging
 
-* [LogTransaction](LogTransaction.md)
+* `Server` [LogTransaction](LogTransaction.md)
 
 ## pc-banking-phone
 
-* [PushToApp](PushToApp.md)
-* [PushToAppForIdentifier](PushToAppForIdentifier.md)
-* [GetPhoneSessionIdentifier](GetPhoneSessionIdentifier.md)
+* `Server` [PushToApp](PushToApp.md)
+* `Server` [PushToAppForIdentifier](PushToAppForIdentifier.md)
+* `Server` [GetPhoneSessionIdentifier](GetPhoneSessionIdentifier.md)
 
 ## Internal / Admin Only
 

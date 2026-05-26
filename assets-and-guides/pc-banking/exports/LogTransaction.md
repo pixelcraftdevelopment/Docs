@@ -1,5 +1,7 @@
 # LogTransaction
 
+**Side:** Server
+
 Append a transaction record to a player's history without moving money. Use for vendor receipts, audit trails, or when money has already moved via a non-PC-Banking path and you want it visible in the player's statement.
 
 ```lua

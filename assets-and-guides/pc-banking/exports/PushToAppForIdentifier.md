@@ -1,5 +1,7 @@
 # PushToAppForIdentifier
 
+**Side:** Server
+
 Same as [`PushToApp`](PushToApp.md) but resolves identifier → server src internally. No-op if the identifier is offline.
 
 ```lua

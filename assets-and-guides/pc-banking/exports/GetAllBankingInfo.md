@@ -1,5 +1,7 @@
 # GetAllBankingInfo
 
+**Side:** Server
+
 Read a player's accounts, cards, and per-bank loan availability. Read-only — no mutations.
 
 ## Signature

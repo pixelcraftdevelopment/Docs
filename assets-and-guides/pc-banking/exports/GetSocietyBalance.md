@@ -1,5 +1,7 @@
 # GetSocietyBalance
 
+**Side:** Server
+
 Read a society treasury balance.
 
 ```lua

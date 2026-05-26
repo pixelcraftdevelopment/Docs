@@ -1,5 +1,7 @@
 # UnfreezeAccount
 
+**Side:** Server
+
 Unlock a previously frozen account.
 
 ```lua

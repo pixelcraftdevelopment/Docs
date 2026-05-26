@@ -1,5 +1,7 @@
 # GetAccountInfo
 
+**Side:** Server
+
 Fetch a single account by DB id.
 
 ```lua

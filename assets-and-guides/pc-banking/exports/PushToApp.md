@@ -1,5 +1,7 @@
 # PushToApp
 
+**Side:** Server
+
 Push a kind-tagged update to the `pc-banking-phone` app for a specific server src. Lives under the `pc-banking-phone` resource namespace.
 
 ```lua

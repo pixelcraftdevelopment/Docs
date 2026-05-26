@@ -1,5 +1,7 @@
 # FreezeAccount
 
+**Side:** Server
+
 Lock an account. Frozen accounts cannot send transfers, receive transfers, deposit, withdraw, or be debited via card. They remain readable.
 
 ```lua

@@ -1,5 +1,7 @@
 # ExportAccountTransactions
 
+**Side:** Server
+
 Paginated transaction history for an account.
 
 ```lua

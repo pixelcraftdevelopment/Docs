@@ -1,5 +1,7 @@
 # IsAccountFrozen
 
+**Side:** Server
+
 Check if an account is currently frozen.
 
 ```lua

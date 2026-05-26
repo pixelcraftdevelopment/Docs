@@ -1,5 +1,7 @@
 # GetCreditInfoFromCard
 
+**Side:** Server
+
 Credit-card-only export. Returns `nil` for debit cards.
 
 ```lua

@@ -1,5 +1,7 @@
 # AddMoney
 
+**Side:** Server
+
 Credit a player's account or pay down a credit card balance.
 
 ```lua

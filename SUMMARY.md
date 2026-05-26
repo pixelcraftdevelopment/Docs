@@ -140,6 +140,8 @@
     * [Tablet & Interaction](assets-and-guides/pc-mechanic/configuration/tablet-and-interaction.md)
     * [Commands](assets-and-guides/pc-mechanic/configuration/commands.md)
     * [Discord Webhooks](assets-and-guides/pc-mechanic/configuration/discord-webhooks.md)
+  * [Events](assets-and-guides/pc-mechanic/events/README.md)
+    * [Client Events](assets-and-guides/pc-mechanic/events/client-events.md)
   * [Exports](assets-and-guides/pc-mechanic/exports/README.md)
     * [getmods](assets-and-guides/pc-mechanic/exports/getmods.md)
     * [setmods](assets-and-guides/pc-mechanic/exports/setmods.md)

@@ -1,5 +1,7 @@
 # RemoveMoney
 
+**Side:** Server
+
 Debit a player's account or charge a credit card.
 
 ```lua

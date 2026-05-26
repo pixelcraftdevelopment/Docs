@@ -1,5 +1,7 @@
 # AddSocietyMoney
 
+**Side:** Server
+
 Credit a society treasury.
 
 ```lua

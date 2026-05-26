@@ -1,5 +1,7 @@
 # GetAccountsByIdentifier
 
+**Side:** Server
+
 All accounts owned by a player. Excludes shared/business accounts the player is a member of (use [`GetAllBankingInfo`](GetAllBankingInfo.md) for that).
 
 ```lua

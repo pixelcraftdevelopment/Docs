@@ -1,5 +1,7 @@
 # GetPhoneSessionIdentifier
 
+**Side:** Server
+
 Returns the identifier currently logged into the phone app at a given src. Differs from the framework's player identifier in multi-character setups where a player can be using their second character's phone session.
 
 ```lua

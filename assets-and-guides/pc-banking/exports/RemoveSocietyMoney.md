@@ -1,5 +1,7 @@
 # RemoveSocietyMoney
 
+**Side:** Server
+
 Debit a society treasury.
 
 ```lua

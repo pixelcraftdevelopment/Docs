@@ -1,5 +1,7 @@
 # CreateRequest
 
+**Side:** Server
+
 Create a request row in the target player's request inbox.
 
 ```lua

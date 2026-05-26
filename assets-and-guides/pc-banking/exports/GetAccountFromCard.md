@@ -1,5 +1,7 @@
 # GetAccountFromCard
 
+**Side:** Server
+
 Resolve a card number to its linked account.
 
 ```lua

@@ -37,3 +37,5 @@ The resource ships with self-service shops (Benny's-style walk-up tuning), owned
 * [Installation](installation.md)
 * [Mechanic Guide](guide/README.md)
 * [Configuration](configuration/README.md)
+* [Events](events/README.md)
+* [Exports](exports/README.md)

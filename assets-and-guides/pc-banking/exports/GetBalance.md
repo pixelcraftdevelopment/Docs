@@ -1,5 +1,7 @@
 # GetBalance
 
+**Side:** Server
+
 Read a player's bank balance.
 
 ```lua

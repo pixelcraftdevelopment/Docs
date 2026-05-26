@@ -1,5 +1,7 @@
 # IsCardFrozen
 
+**Side:** Server
+
 Check if a card is locked (player-locked OR admin-locked).
 
 ```lua

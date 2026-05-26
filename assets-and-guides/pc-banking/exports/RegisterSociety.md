@@ -1,5 +1,7 @@
 # RegisterSociety
 
+**Side:** Server
+
 Create a new society at runtime. Idempotent — does nothing if a society with the same name already exists.
 
 ```lua
