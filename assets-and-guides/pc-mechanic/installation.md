@@ -14,9 +14,11 @@
 1. **Download** `pc-mechanic` from FiveM keymaster.
 2. **Extract** to `resources/[mechanic]/pc-mechanic` and place `pc-mechanic-props` alongside.
 3. **Database** — run `pc-mechanic/database/run.sql` against your MySQL database.
-4. **server.cfg** — add ensure lines AFTER your framework + ox_lib + oxmysql:
+4. **server.cfg** — add ensure lines AFTER your framework + ox\_lib + oxmysql:
 
 ```
+setr sv_stateBagStrictMode false --Disable Strict Mode Statebags blocking
+
 ensure ox_lib
 ensure oxmysql
 ensure qb-core   # or es_extended / qbx_core
