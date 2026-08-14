@@ -6,6 +6,7 @@ Phone bridge settings in `pc-banking/config/config.lua`.
 
 ```lua
 Config.Phone                      = 'auto'   -- 'auto' | 'lb-phone' | 'qs-smartphone' | 'qs-smartphone-pro' | 'qb-phone' | 'npwd' | 'gksphone' | 'yseries' | '17mov_Phone' | false
+Config.DynamicIsland               = true
 Config.PhoneNotifications         = true
 Config.PhoneSMSForTransfers       = true
 Config.PhoneSMSForSecurity        = true
@@ -18,6 +19,7 @@ Config.PhoneLargeTransactionAlert = true
 | Field | Type | Behavior |
 |-------|------|----------|
 | `Phone` | string/bool | Selects phone provider. `false` disables provider detection/use. `'auto'` picks first started provider from runtime priority list. |
+| `DynamicIsland` | bool | With `qs-smartphone`, sends OTPs through Dynamic Island instead of ordinary phone messages. This setting is also present in `pc-banking-phone/config.lua`. |
 | `PhoneNotifications` | bool | Controls phone push notifications sent via `PhoneBridge.SendPushNotification(...)` from notification flow. |
 | `PhoneSMSForTransfers` | bool | Enables transfer SMS notifications where transfer flows call `SendSMS`. |
 | `PhoneSMSForSecurity` | bool | Enables security/auth/card SMS/push paths that check this flag. |

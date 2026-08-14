@@ -7,10 +7,13 @@ Phone companion configuration in `pc-banking-phone/config.lua`. Most fields mirr
 ```lua
 Config.Framework     = 'auto'   -- 'auto' | 'QBCore' | 'Qbox' | 'ESX'
 Config.Phone         = 'auto'   -- 'auto' | 'lb-phone' | 'qs-smartphone' | 'qb-phone' | 'npwd' | 'gksphone' | 'yseries' | '17mov_Phone'
+Config.DynamicIsland = true     -- qs-smartphone OTP display mode
 Config.Notifications = 'auto'   -- 'auto' | 'ox_lib' | 'okokNotify' | 'ps-ui' | 'lation_ui' | 'nox_notify'
 Config.Locale        = 'en'
 Config.Debug         = false
 ```
+
+When using `qs-smartphone`, `DynamicIsland = true` delivers OTPs through Dynamic Island rather than standard messages. Keep this value aligned with `pc-banking/config/config.lua`.
 
 ## App Registration
 

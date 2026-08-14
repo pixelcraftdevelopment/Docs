@@ -17,3 +17,7 @@ Public exports for vendor/integration scripts. Use from other resources via `exp
 * [getTuningHandlingModifiers](getTuningHandlingModifiers.md) — compute handling deltas from a tuning config
 * [getServicingHandlingModifiers](getServicingHandlingModifiers.md) — compute handling deltas from servicing health
 * [applyHandlingTuning](applyHandlingTuning.md) — apply tuning handling to a vehicle entity
+
+## Nitrous
+
+* [GetVehicleNitrousInfo](GetVehicleNitrousInfo.md) — read a vehicle's current nitrous status

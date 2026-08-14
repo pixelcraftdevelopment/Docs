@@ -7,6 +7,10 @@ Config.StanceMinCamber           = 0.0
 Config.StanceMaxCamber           = 0.5
 Config.StanceMinTrackWidth       = 0.5
 Config.StanceMaxTrackWidth       = 1.25
+Config.StanceMinWheelSize        = 0.5
+Config.StanceMaxWheelSize        = 1.5
+Config.StanceMinWheelWidth       = 0.1
+Config.StanceMaxWheelWidth       = 1.5
 
 Config.StanceNearbyVehiclesFreqMs        = 500
 Config.TuningGiveInstalledItemBackOnRemoval = false
@@ -17,6 +21,8 @@ Config.TuningGiveInstalledItemBackOnRemoval = false
 | `StanceMinSuspensionHeight` / `Max` | Vertical offset clamp. Negative lowers the body, positive raises it |
 | `StanceMinCamber` / `Max` | Camber angle range in radians. 0 = wheels vertical, 0.5 ≈ 28° tilt at the top |
 | `StanceMinTrackWidth` / `Max` | Wheel poke clamp. 1.0 = stock, lower brings wheels in, higher pushes them out |
+| `StanceMinWheelSize` / `Max` | Native wheel-diameter clamp. 1.0 is the stock size |
+| `StanceMinWheelWidth` / `Max` | Native wheel-width clamp. 1.0 is the stock width |
 | `StanceNearbyVehiclesFreqMs` | Nearby vehicle scan interval while stance UI is open. Used for visualizing other cars at the same time |
 | `TuningGiveInstalledItemBackOnRemoval` | When uninstalling a tuning option, return the original item to inventory (`true`) or consume it forever (`false`) |
 

@@ -11,6 +11,8 @@ Server-side exports exposed to other resources. All live under the `pc-banking` 
 * `Server` [AddMoney](AddMoney.md)
 * `Server` [RemoveMoney](RemoveMoney.md)
 * `Server` [GetBalance](GetBalance.md)
+* `Server` [GetAvailableBalance](GetAvailableBalance.md)
+* `Server` [GetOverdraftInfo](GetOverdraftInfo.md)
 
 ### Society / Business Treasury
 
@@ -38,6 +40,7 @@ Server-side exports exposed to other resources. All live under the `pc-banking` 
 ### Requests (Phone-App Inbox)
 
 * `Server` [CreateRequest](CreateRequest.md)
+* `Server` [CreateBill](CreateBill.md)
 
 ### Logging
 

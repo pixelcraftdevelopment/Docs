@@ -80,10 +80,13 @@ Topping up oil above the threshold stops monitoring immediately.
 ## Engine Seizure
 
 ```lua
+Config.EnableEngineFireAt0Oil          = true
 Config.EnableEngineSeizureAt0Oil       = true
 Config.MinTimeBeforeSeizureSeconds     = 10
 Config.MaxTimeBeforeSeizureSeconds     = 20
 ```
+
+`EnableEngineFireAt0Oil` is the master toggle for zero-oil engine damage, seizure, and fire behavior. It defaults to `true`; set it to `false` to disable that entire behavior.
 
 When oil reaches 0% (and the master toggle is on), the engine seizes after a random delay between min and max. A seized engine:
 

@@ -12,6 +12,8 @@ PC-Mechanic config is split across files in `pc-mechanic/config/`:
 | `modmenu.lua` | Mod menu categories, performance/cosmetics partTypes, plate indexes, window tints, wheel types, horns, paint colours, xenon colours |
 | `ElectricVehicles.lua` | EV model whitelist (older builds only — auto-detected on build 3258+) |
 
+| `Props.lua` | GTA prop models used for spray painting, engine replacement, hoists, and the mechanic tablet |
+
 ## Sub-Pages
 
 ### Core
@@ -47,5 +49,6 @@ PC-Mechanic config is split across files in `pc-mechanic/config/`:
 * [Minigames & Skillchecks](minigames.md)
 * [Installation Mode](installation-mode.md)
 * [Tablet & Interaction](tablet-and-interaction.md)
+* [Prop Models](prop-models.md)
 * [Commands](commands.md)
 * [Discord Webhooks](discord-webhooks.md)

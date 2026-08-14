@@ -29,6 +29,7 @@ Plus `pc-banking-phone/config.lua` for the phone companion.
 ### Limits and Auth
 
 * [Global Limits](global-limits.md)
+* [Overdraft](overdraft.md)
 * [Two-Factor Authentication](two-factor.md)
 * [Banking Password / Login](banking-password.md)
 
